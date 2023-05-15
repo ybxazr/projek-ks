@@ -1,0 +1,109 @@
+:root {
+	--primary: #285430;
+	--bg : #E3F2C1;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: linear-gradient(#61764B,#151808);
+}
+
+.header span {
+	color: var(--bg);
+}
+
+.nav {
+	color: var(--bg);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav a:hover {
+	color: #ffd700;
+}
+
+.header {
+	background-color: var(--primary);
+	color: #928616;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+}
+
+nav ul li {
+	margin-right: 20px;
+}
+
+nav ul li:last-child {
+	margin-right: 0;
+}
+
+nav ul li a {
+	color: #83764F;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+.produk ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.produk li {
+	flex-basis: 33%;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.produk img {
+	max-width: 100%;
+}
+
+.produk h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.produk p {
+	margin-bottom: 10px;
+}
+
+.produk button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+div.h2 {
+	text-align: center;
+}
+
+div.produk1 {
+	border: 3px solid ;
+	border-radius: 8px;
+	padding: 5px;
+	margin-right: 65px;
+}
+
+div.produk2 {
+	border-style: solid;
+}
